@@ -3,7 +3,7 @@
     <v-col cols="12" sm="10" md="10">
       <v-card>
         <v-card-title class="headline">
-          Lindo to excel
+          Lindo to excel converter
         </v-card-title>
         <v-card-text>
           <v-form>
@@ -12,10 +12,10 @@
               :error-messages="error"
               autofocus
               label="Lindo tableau"
-              height="400"
+              height="350"
               outlined
             />
-            <v-switch v-model="convertDotIntoComma" label="Convert dot (.) into comma (,)" class="m-0" />
+            <v-switch v-model="convertDotIntoComma" label="Convert dot (.) into comma (,)" class="mt-0" />
           </v-form>
         </v-card-text>
         <v-card-actions>
